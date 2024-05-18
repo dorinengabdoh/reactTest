@@ -137,7 +137,7 @@ const Location = () => {
             <div className="city2">
               <img src="../src/assets/icons/Checkbox.svg" alt="" />
               <div className="city">
-                <p>  Moly kodd, Buea</p>
+                <p> Moly kodd, Buea</p>
               </div>
               <div className="city">
                 <img
@@ -226,7 +226,9 @@ const Location = () => {
             </div>
             <div className="bottom">
               <button className="prevBtn">prev</button>
-              <p><span className="one">1</span> 2  3 5 - 19</p>
+              <p>
+                <span className="one">1</span> 2 3 5 - 19
+              </p>
               <button className="prevBtn">Next</button>
             </div>
           </div>
