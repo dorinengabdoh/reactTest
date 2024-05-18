@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Roboto';
+}
+
+body {
+  background-color: #f1f2fa;
+  color: #424242;
+  font-family: 'Roboto';
+}
+
+.active_gradient {
+  @apply bg-gradient-to-r from-indigo-500 to-[#d941ff]
+}
+
+.card {
+  @apply bg-white rounded-2xl p-4
+}
