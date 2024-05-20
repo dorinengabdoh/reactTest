@@ -14,7 +14,7 @@ export default function LargeNavbar() {
         </div>
         <div className="flex items-center gap-3">
           <img
-            src="/vite.svg"
+            src="../src/assets/icons/people.svg"
             className="w-10 h-10 rounded-full overflow-hidden bg-[#c6c5c5]"
           />
           <span>FON TEBOH</span>

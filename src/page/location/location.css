@@ -120,6 +120,7 @@ h1 {
 .filter {
   display: flex;
   gap: 4px;
+  height: 2.5rem;
   border-radius: 5px;
   border: 1px solid #1f1b1b;
   width: 120px;
@@ -140,16 +141,20 @@ h1 {
   display: flex;
   border-radius: 5px;
   width: 40%;
+  height: 3rem;
   background-color: white;
   justify-content: center;
   padding: 10px 30px;
   gap: 5px;
+  /* height: 14px; */
 }
 
 .searchLocation {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
+  height: 10px;
+  align-items: center;
 }
 
 .addLocation {
@@ -157,6 +162,7 @@ h1 {
   width: 89%;
   justify-content: space-around;
   margin: 0 auto;
+
 }
 
 .searchIcon {
@@ -202,14 +208,22 @@ h1 {
   font-weight: bold;
 }
 
-.title,
+.title {
+  display: flex;
+  gap: 3.5rem;
+  margin-top: 2rem;
+  margin-left: 6rem;
+  flex-wrap: wrap;
+  color: #000;
+}
+
 .city1,
 .city2,
 .bottom {
   display: flex;
-  gap: 5rem;
+  gap: 4.5rem;
   margin-top: 2rem;
-  margin-left: 4rem;
+  margin-left: 6rem;
   flex-wrap: wrap;
   color: #000;
 }
@@ -219,10 +233,6 @@ h1 {
 .citys {
   display: flex;
   align-items: center;
-}
-
-.citi {
-  color: #1111eb;
 }
 
 .citys {
