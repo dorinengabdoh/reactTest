@@ -133,7 +133,7 @@ export default function Dashboard() {
             <div className="flex items-center justify-between ">
               <h4 className="text-4xl">62</h4>
               <img
-                src="../src/assets/icons/employee.svg"
+                src="../src/assets/icons/absent.svg"
                 className="bg-[#f1f2fa] rounded-full"
               />
             </div>
@@ -159,7 +159,7 @@ export default function Dashboard() {
             <div className="flex items-center justify-between ">
               <h4 className="text-4xl">30</h4>
               <img
-                src="../src/assets/icns/absent.svg"
+                src="../src/assets/icons/late.svg"
                 className="bg-[#f1f2fa] rounded-full"
               />
             </div>
@@ -224,7 +224,7 @@ export default function Dashboard() {
             </thead>
             <tbody className="text-xs">
               <tr>
-                <img src="../src/assets/icons/Glen.svg" alt="" />
+                <img src="../src/assets/icons/people2.svg" alt="" />
                 <td>Tabe Lilan</td>
                 <td>UI/UX Design</td>
                 <td>
@@ -234,7 +234,7 @@ export default function Dashboard() {
                 </td>
               </tr>
               <tr>
-                <img src="../src/assets/icons/talceLyon.svg" alt="" />
+                <img src="../src/assets/icons/people1.svg" alt="" />
                 <td>Nfor Glen</td>
                 <td>Developer</td>
                 <td>
@@ -244,6 +244,7 @@ export default function Dashboard() {
                 </td>
               </tr>
               <tr>
+                <img src="../src/assets/icons/ Glen.svg" alt="" />
                 <td>Tabe Lilan</td>
                 <td>UI/UX Design</td>
                 <td>
