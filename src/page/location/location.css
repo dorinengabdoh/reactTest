@@ -253,6 +253,12 @@ h1 {
   position: relative;
 }
 
+.one {
+  background-color: #6e6ef7;
+  padding: 4px;
+  border-radius: 5px;
+}
+
 .none {
   width: 8%;
   top: 8%;
@@ -260,6 +266,12 @@ h1 {
   border-radius: 50%;
   position: absolute;
   margin-left: 15.4rem;
+}
+
+.prevBtn{
+  background-color: #fff;
+  padding: 7px;
+  border-radius: 6px;
 }
 
 .BtnN {

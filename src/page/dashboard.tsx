@@ -132,7 +132,10 @@ export default function Dashboard() {
           <div className="card w-full">
             <div className="flex items-center justify-between ">
               <h4 className="text-4xl">62</h4>
-              <img src={Users} className="bg-[#f1f2fa] rounded-full" />
+              <img
+                src="../src/assets/icons/employee.svg"
+                className="bg-[#f1f2fa] rounded-full"
+              />
             </div>
             <div>
               <h4 className="w-full">one Leave</h4>
@@ -142,7 +145,10 @@ export default function Dashboard() {
           <div className="card w-full">
             <div className="flex items-center justify-between ">
               <h4 className="text-4xl">360</h4>
-              <img src={Users} className="bg-[#f1f2fa] rounded-full" />
+              <img
+                src="../src/assets/icons/time.svg"
+                className="bg-[#f1f2fa] rounded-full"
+              />
             </div>
             <div>
               <h4 className="w-full">on time</h4>
@@ -152,7 +158,10 @@ export default function Dashboard() {
           <div className="card w-full">
             <div className="flex items-center justify-between ">
               <h4 className="text-4xl">30</h4>
-              <img src={Users} className="bg-[#f1f2fa] rounded-full" />
+              <img
+                src="../src/assets/icns/absent.svg"
+                className="bg-[#f1f2fa] rounded-full"
+              />
             </div>
             <div>
               <h4 className="w-full">Absent</h4>
@@ -162,7 +171,10 @@ export default function Dashboard() {
           <div className="card w-full">
             <div className="flex items-center justify-between ">
               <h4 className="text-4xl">622</h4>
-              <img src={Users} className="bg-[#f1f2fa] rounded-full" />
+              <img
+                src="../src/assets/icons/late.svg"
+                className="bg-[#f1f2fa] rounded-full"
+              />
             </div>
             <div>
               <h4 className="w-full">Late Arrival</h4>
@@ -172,7 +184,10 @@ export default function Dashboard() {
           <div className="card w-full">
             <div className="flex items-center justify-between ">
               <h4 className="text-4xl">6</h4>
-              <img src={Users} className="bg-[#f1f2fa] rounded-full" />
+              <img
+                src="../src/assets/icons/early.svg"
+                className="bg-[#f1f2fa] rounded-full"
+              />
             </div>
             <div>
               <h4 className="w-full">Early Departures</h4>
